@@ -108,18 +108,6 @@ function Paper({paperData}) {
       >
         BIB
       </button>
-      <div
-        className={`abstract ${shown === "abs" ? 'visible' : 'hidden'}`}
-      >
-        {paperData.abstract}
-      </div>
-      <div
-        className={`bibtex ${shown === "bib" ? 'visible' : 'hidden'}`}
-      >
-        <CodeBlock className="language-latex">
-          {paperData.bib}
-        </CodeBlock>
-      </div>
       {
         ["pdf", "video", "html"].filter(tag => tag in paperData).map(tag =>
           <a
@@ -132,6 +120,18 @@ function Paper({paperData}) {
           </a>
         )
       }
+      <div
+        className={`abstract ${shown === "abs" ? 'visible' : 'hidden'}`}
+      >
+        {paperData.abstract}
+      </div>
+      <div
+        className={`bibtex ${shown === "bib" ? 'visible' : 'hidden'}`}
+      >
+        <CodeBlock className="language-latex">
+          {paperData.bib}
+        </CodeBlock>
+      </div>
     </div>
   );
 }
