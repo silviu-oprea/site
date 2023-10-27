@@ -1,6 +1,11 @@
 ---
 ---
 import Papers from '@site/src/components/Papers';
+import { paperList, paperCategories } from '@site/src/components/PaperList';
+import { patentList, patentCategories } from '@site/src/components/PatentList';
+import { newsList } from '@site/src/components/NewsList';
+const language = 'en';
+
 
 <div className="image-and-text-box">
     <img
@@ -13,7 +18,7 @@ import Papers from '@site/src/components/Papers';
         <u>Applied Scientist at Amazon working on Alexa</u>
       </p>
       <p>
-        Interested in building computational agents that process natural language and react in a manner that brings value to our lives.
+        REWRITE THIS, see Dev's website.Interested in building computational agents that process natural language and react in a manner that brings value to our lives.
       </p>
       <p>
         <code>silviu dot vlad dot oprea at gmail dot com</code>
@@ -30,21 +35,32 @@ import Papers from '@site/src/components/Papers';
 
 ## News
 
-Top news, plus a see more button (see full list here)
+<ul>
+  {
+    newsList.filter(({onMainPage}) => onMainPage).map(newsObt => <li>
+      <b>{newsObt.date}</b>: {newsObt.languageToText[language]}
+    </li>)
+  }
+</ul>
+
+See more news [here](/news).
 
 ---
 
 ## Patents
 
-Pune si link pe Google Patents profile. https://patents.google.com/?inventor=Silviu+Oprea&oq=inventor:(Silviu+Oprea).
+<Papers language="en" paperList={patentList} paperCategories={patentCategories} />
+
+
+My Google Patents page is [here](https://patents.google.com/?inventor=Silviu+Oprea&oq=inventor:(Silviu+Oprea)).
 
 ---
 
 ## Publications
 
-<Papers language="en" />
+<Papers language="en" paperList={paperList} paperCategories={paperCategories} />
 
-Check the full list of publications on [my Google Scholar profile](https://scholar.google.com/citations?user=IOVYUDwAAAAJ).
+\* indicates equal contribution. Check the full list of publications on [my Google Scholar profile](https://scholar.google.com/citations?user=IOVYUDwAAAAJ).
 
 ---
 
@@ -59,6 +75,8 @@ flood segmentation articles
 ---
 
 ## Teaching
+
+timeline component, and below as well. in news talk about flood segmentation video launch media coverage etc.
 
 ---
 
