@@ -63,7 +63,7 @@ export function ATimeline({itemList}) {
     }}
   > */}
     {itemList.map((entry, idx) => <TimelineItem>
-      <TimelineOppositeContent color="textSecondary">
+      <TimelineOppositeContent>
         {entry.dates}
       </TimelineOppositeContent>
       <TimelineSeparator>
@@ -73,7 +73,7 @@ export function ATimeline({itemList}) {
           <TimelineConnector sx={{ bgcolor: 'var(--ifm-link-color)' }} />
         }
       </TimelineSeparator>
-      <TimelineContent color="textSecondary">
+      <TimelineContent >
         <p style={{color: "var(--ifm-color-primary)"}}>
           {entry.degree} at {entry.institution}
         </p>

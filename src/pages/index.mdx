@@ -4,8 +4,9 @@ import Papers from '@site/src/components/Papers';
 import { paperList, paperCategories } from '@site/src/components/PaperList';
 import { patentList, patentCategories } from '@site/src/components/PatentList';
 import { newsList } from '@site/src/components/NewsList';
-import { educationList } from '@site/src/components/EducationList';
 import { ATimeline } from '@site/src/components/ATimeline';
+import { educationList } from '@site/src/components/EducationList';
+import { workList } from '@site/src/components/WorkList';
 const language = 'en';
 
 
@@ -80,7 +81,7 @@ timeline component, and below as well. in news talk about flood segmentation vid
 
 ## Work
 
-Also mention reviewing for ARR.
+<ATimeline itemList={workList} />
 
 ---
 
@@ -88,25 +89,11 @@ Also mention reviewing for ARR.
 
 <ATimeline itemList={educationList} />
 
-RO translation
-
-Google Analytics
-Projects with link to demo, e.g. Chandler
-
-Toy projects, do something, e.g. train LLM on Aquinas and then ask questions from what Aquinas says. And other top Theologians.
-Publish in Theology joirnal.
-Also paper on Ancient Greek.
-
-<ul>
-<li>
-This is the text
-<details><summary>abstract</summary>
-<p>
-this is the abstract
-</p>
-</details>
-</li>
-<li>
-a
-</li>
-</ul>
+TODO:
+- RO translation
+- Google Analytics
+- Projects with link to demo, e.g. Chandler
+- Also mention reviewing for ARR.
+- Toy projects, do something, e.g. train LLM on Aquinas and then ask questions from what Aquinas says. And other top Theologians.
+- Publish in Theology joirnal.
+- Also paper on Ancient Greek.

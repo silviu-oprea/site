@@ -78,7 +78,7 @@ Recently, author-annotated sarcasm datasets, which focus on intended, rather tha
 
 {
     key: "oprea-etal-2022-chatbot",
-    category: paperCategories[2],
+    category: paperCategories[1],
     title: "Should a Chatbot be Sarcastic? Understanding User Preferences Towards Sarcasm Generation",
     authors: ["Silviu Vlad Oprea", "Steven Wilson", "Walid Magdy"],
     year: 2022,
@@ -132,7 +132,7 @@ Cross-lingual alignment of word embeddings are important in knowledge transfer a
 
 {
     key: "oprea-etal-2022-multi",
-    category: paperCategories[1],
+    category: paperCategories[2],
     title: "Chandler: An Explainable Sarcastic Response Generator",
     authors: ["Silviu Vlad Oprea", "Steven Wilson", "Walid Magdy"],
     year: 2021,
@@ -189,7 +189,7 @@ Spaceborne Earth observation is a key technology for flood response, offering va
 
 {
     key: "oprea-magdy-2020-the-effect",
-    category: paperCategories[2],
+    category: paperCategories[1],
     title: "The Effect of Sociocultural Variables on Sarcasm Communication Online",
     authors: ["Silviu Vlad Oprea", "Walid Magdy"],
     year: 2020,
