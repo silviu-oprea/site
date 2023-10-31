@@ -2,14 +2,50 @@ import React, { useEffect, useState } from "react";
 import { Link } from '@site/src/components/Utils';
 
 export const newsList = [
+    // {
+    //     date: "4 April 2022",
+    //     onMainPage: true,
+    //     languageToText: {
+    //         en: "",
+    //         ro: ""
+    //     }
+    // }
+    {
+        date: "30 Oct 2023",
+        onMainPage: true,
+        languageToText: {
+            en: <React.Fragment>
+I am serving as a reviewer for <Link href="https://aclrollingreview.org/">ACL Rolling Review</Link> 🧐
+            </React.Fragment>,
+            ro: ""
+        }
+    },
     {
         date: "3 March 2023",
         onMainPage: true,
         languageToText: {
             en: <React.Fragment>
-I passed my viva with no reviewable corrections 🥳! Thanks be to God 🙏🏻; to my supervisors <Link href="https://homepages.inf.ed.ac.uk/wmagdy/">Walid Magdy</Link>, <Link href="https://homepages.inf.ed.ac.uk/bonnie/">Bonnie Webber</Link>, and <Link href="https://mariawolters.net/">Maria Wolters</Link>; and to my examiners <Link href="https://sites.google.com/view/alexandra-birch/">Alexandra Birch-Mayne</Link> and <Link href="https://web.eecs.umich.edu/~mihalcea/">Rada Mihalcea</Link>.
+I passed my PhD viva with no reviewable corrections 🥳! Thanks be to God 🙏🏻; to my supervisors <Link href="https://homepages.inf.ed.ac.uk/wmagdy/">Walid Magdy</Link>, <Link href="https://homepages.inf.ed.ac.uk/bonnie/">Bonnie Webber</Link>, and <Link href="https://mariawolters.net/">Maria Wolters</Link>; and to my examiners <Link href="https://sites.google.com/view/alexandra-birch/">Alexandra Birch-Mayne</Link> and <Link href="https://web.eecs.umich.edu/~mihalcea/">Rada Mihalcea</Link>. Check out my thesis, <Link href="https://era.ed.ac.uk/handle/1842/40531">Computational Sarcasm Detection and Understanding in Online Communication</Link>.
             </React.Fragment>,
             ro: ""
+        }
+    },
+    {
+        date: "15 August 2022",
+        onMainPage: false,
+        languageToText: {
+            en: <React.Fragment>
+Our paper, <Link href="/#publications">Multi-Stage Framework with Refinement Based Point Set Registration for Unsupervised Bi-Lingual Word Alignment</Link>, by <u>Silviu Vlad Oprea</u>, Sourav Dutta, and Haytham Assem, was accepted at COLING 2022.
+            </React.Fragment>
+        }
+    },
+    {
+        date: "18 April 2022",
+        onMainPage: false,
+        languageToText: {
+            en: <React.Fragment>
+I started working for Amazon as an Applied Scientist in the Alexa AI 🤖 team.
+            </React.Fragment>
         }
     },
     {
@@ -23,6 +59,15 @@ Our patent, <Link href="https://worldwide.espacenet.com/patent/search/family/072
         }
     },
     {
+        date: "23 February 2022",
+        onMainPage: false,
+        languageToText: {
+            en: <React.Fragment>
+Our paper, <Link href="/#publications">Should a Chatbot be Sarcastic? Understanding User Preferences Towards Sarcasm Generation</Link>, by <u>Silviu Vlad Oprea</u> and Walid Magdy, was accepted at ACL 2022.
+            </React.Fragment>
+        }
+    },
+    {
         date: "30 June 2021",
         onMainPage: true,
         languageToText: {
@@ -31,7 +76,7 @@ The flood segmentation model that we built at <Link href="https://fdleurope.org"
 
 Our work was covered by <Link href="https://www.ox.ac.uk/news/2021-06-29-artificial-intelligence-pioneered-oxford-detect-floods-launches-space">
     this
-</Link> post from the University of Oxford; and by several media outlets: <Link href="https://watchers.news/2021/07/11/worldfloods-ai-pioneered-at-oxford-for-global-flood-mapping-launches-into-space/)">
+</Link> post from the University of Oxford; and by several media outlets: <Link href="https://watchers.news/2021/07/11/worldfloods-ai-pioneered-at-oxford-for-global-flood-mapping-launches-into-space/">
     1
 </Link>, <Link href="https://www.innovationnewsnetwork.com/historic-breakthroughs-in-flood-mapping-from-space/24369/?utm_source=rss&utm_medium=rss&utm_campaign=historic-breakthroughs-in-flood-mapping-from-space)">
     2
@@ -53,13 +98,5 @@ Check out our <Link href="/publications/#Mateo-Garcia2021">
             `
         }
     },
-    // {
-    //     date: "4 April 2022",
-    //     onMainPage: true,
-    //     languageToText: {
-    //         en: "",
-    //         ro: ""
-    //     }
-    // }
 ]
 

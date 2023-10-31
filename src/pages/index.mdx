@@ -4,6 +4,8 @@ import Papers from '@site/src/components/Papers';
 import { paperList, paperCategories } from '@site/src/components/PaperList';
 import { patentList, patentCategories } from '@site/src/components/PatentList';
 import { newsList } from '@site/src/components/NewsList';
+import { educationList } from '@site/src/components/EducationList';
+import { ATimeline } from '@site/src/components/ATimeline';
 const language = 'en';
 
 
@@ -64,10 +66,6 @@ My Google Patents page is [here](https://patents.google.com/?inventor=Silviu+Opr
 
 ---
 
-```python
-foo
-```
-
 ## Media Coverage
 
 flood segmentation articles
@@ -82,9 +80,13 @@ timeline component, and below as well. in news talk about flood segmentation vid
 
 ## Work
 
+Also mention reviewing for ARR.
+
 ---
 
 ## Education
+
+<ATimeline itemList={educationList} />
 
 RO translation
 
