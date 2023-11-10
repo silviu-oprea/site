@@ -72,7 +72,7 @@ Our paper, <Link href="/#publications">Should a Chatbot be Sarcastic? Understand
         onMainPage: true,
         languageToText: {
             en: <React.Fragment>
-The flood segmentation model that we built at <Link href="https://fdleurope.org">Frontier Development Lab</Link> has now been deployed by SpaceX on an actual satellite 🛰.
+The flood segmentation model that we built at <Link href="https://fdleurope.org">Frontier Development Lab</Link> has now been deployed by SpaceX on an actual satellite 🛰. Along the way, we collaborated with the European Space Agency and UNICEF.
 
 Our work was covered by <Link href="https://www.ox.ac.uk/news/2021-06-29-artificial-intelligence-pioneered-oxford-detect-floods-launches-space">
     this
