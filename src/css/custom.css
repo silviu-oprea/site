@@ -103,6 +103,10 @@ html[data-theme='dark'] .header-github-link:before {
   }
 }
 
+.container {
+  max-width: 100%;
+}
+
 .centered p {
   margin: 0;
   position: absolute;

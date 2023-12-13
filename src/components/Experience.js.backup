@@ -2,7 +2,17 @@ import React, { useEffect, useState } from "react";
 import { Link } from '@site/src/components/Utils';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import the FontAwesomeIcon component.
 
-export const educationList = [
+
+{/* "I showed that people of similar socio-demographic backgrounds understand each other's sarcasm more often than people of dissimilar backgrounds (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/publications/#oprea-magdy-2020-the-effect\">CSCW 2020 paper</a>)",
+        "I built a sarcastic chatbot based on a formal llinguistic theory of sarcasm (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/publications/#oprea-etal-2021-chandler\">EMNLP 2021 demo</a>)",
+        "I investigated when it is appropriate for chatbots to be sarcastic, and how they should formulate their utterances (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/publications/#oprea-etal-2022-chatbot\">ACL 2022 paper</a>)."
+        <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://era.ed.ac.uk/handle/1842/40531\">Computational Sarcasm Detection and Understanding in Online Communication</a>
+        </React.Fragment> */}
+        // <p>
+        // Along the way, I was an intern: at Frontier Development Lab in 2019, working on flood segmentation in satellite images, in collaboration with the European Space Agency and UNICEF; at Huawei, working on
+        //             </p>
+
+export const experienceList = [
     {
         symbol: <React.Fragment><FontAwesomeIcon icon="fa-solid fa-graduation-cap" size="lg" /></React.Fragment>,
         dates: "2018 - 2023",

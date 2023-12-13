@@ -9,7 +9,6 @@ import { educationList } from '@site/src/components/EducationList';
 import { workList } from '@site/src/components/WorkList';
 const language = 'en';
 
-
 <div className="image-and-text-box">
     <img
       src={require('/img/photo.jpeg').default}
@@ -18,10 +17,10 @@ const language = 'en';
     />
     <div>
       <p>
-        <u>Applied Scientist at Amazon working on Alexa</u>
+        <u>Applied Scientist at Amazon.<br/>PhD in Data Science from the University of Edinburgh.</u>
       </p>
       <p>
-        REWRITE THIS, see Dev's website.Interested in building computational agents that process natural language and react in a manner that brings value to our lives.
+        I am interested in building computational agents that process natural language and react in a manner that brings value to our lives.
       </p>
       <p>
         <code>silviu dot vlad dot oprea at gmail dot com</code>
@@ -33,8 +32,6 @@ const language = 'en';
       </p>
     </div>
 </div>
-
-Web of science, complete and sync with orcid and put here.
 
 ---
 
@@ -52,6 +49,30 @@ See more news [here](/news).
 
 ---
 
+## Education
+
+<ATimeline itemList={educationList} />
+
+---
+
+## Work
+
+<ATimeline itemList={workList} />
+
+---
+
+## Media coverage
+
+Our paper, [Towards global flood mapping onboard low cost satellites with machine learning](https://www.nature.com/articles/s41598-021-86650-z), published in Nature (Scientific Reports) in 2021, was covered by the following articles:
+
+- University of Oxford: [Artificial Intelligence pioneered at Oxford to detect floods launches into space](https://www.ox.ac.uk/news/2021-06-29-artificial-intelligence-pioneered-oxford-detect-floods-launches-space)
+- The Watchers: [WorldFloods – AI pioneered at Oxford for global flood mapping launches into space](https://watchers.news/2021/07/11/worldfloods-ai-pioneered-at-oxford-for-global-flood-mapping-launches-into-space/)
+- Innovation News Network: [A look at historic breakthroughs in flood mapping from space](https://www.innovationnewsnetwork.com/historic-breakthroughs-in-flood-mapping-from-space/24369/?utm_source=rss&utm_medium=rss&utm_campaign=historic-breakthroughs-in-flood-mapping-from-space)
+- Homeland Security News Wire: [Detecting Floods from Space Using Artificial Intelligence](https://www.homelandsecuritynewswire.com/dr20210712-detecting-floods-from-space-using-artificial-intelligence)
+- Chinese Academy of Sciences: [AI加持遥感技术能否为防汛"备料"](https://www.cas.cn/kj/202107/t20210722_4799503.shtml)
+- China Science Communication: [AI加持，遥瞰洪涛](https://www.kepuchina.cn/more/202107/t20210722_3010644.shtml)
+
+---
 ## Patents
 
 <Papers language="en" paperList={patentList} paperCategories={patentCategories} />
@@ -66,42 +87,3 @@ My Google Patents page is [here](https://patents.google.com/?inventor=Silviu+Opr
 <Papers language="en" paperList={paperList} paperCategories={paperCategories} />
 
 \* indicates equal contribution. Check the full list of publications on [my Google Scholar profile](https://scholar.google.com/citations?user=IOVYUDwAAAAJ).
-
----
-
-## Media Coverage
-
-flood segmentation articles
-
----
-
-## Teaching
-
-timeline component, and below as well. in news talk about flood segmentation video launch media coverage etc.
-
----
-
-## Work
-
-#### Permanent positions
-
-<ATimeline itemList={workList} />
-
-#### Research placements and internships
-
-<ATimeline itemList={workList} />
-
----
-
-## Education
-
-<ATimeline itemList={educationList} />
-
-TODO:
-- RO translation
-- Google Analytics
-- Projects with link to demo, e.g. Chandler
-- Also mention reviewing for ARR.
-- Toy projects, do something, e.g. train LLM on Aquinas and then ask questions from what Aquinas says. And other top Theologians.
-- Publish in Theology joirnal.
-- Also paper on Ancient Greek.

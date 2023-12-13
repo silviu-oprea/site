@@ -4,11 +4,12 @@ import Timeline from '@mui/lab/Timeline';
 import TimelineItem, { timelineItemClasses } from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineContent, {timelineContentClasses} from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent, {
   timelineOppositeContentClasses,
 } from '@mui/lab/TimelineOppositeContent';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import the FontAwesomeIcon component.
 
 // export function NiceTimeline({itemList}) {
 //   return (
@@ -47,27 +48,38 @@ import TimelineOppositeContent, {
 
 export function ATimeline({itemList}) {
   return <Timeline
-      sx={{
-        [`& .${timelineOppositeContentClasses.root}`]: {
-          flex: 0.15,
-          paddingLeft: 0
-        },
-      }}
+  sx={{
+    [`& .${timelineItemClasses.root}:before`]: {
+      flex: 0,
+      padding: 0,
+    },
+    [`& .${timelineContentClasses.root}`]: {
+      // padding: 2,
+      marginTop: ".7em"
+    },
+  }}
+      // sx={{
+      //   [`& .${timelineOppositeContentClasses.root}`]: {
+      //     flex: 0.17,
+      //     paddingLeft: 0,
+      //     marginTop: ".7rem"
+      //   },
+      //   [`& .${timelineContentClasses.root}`]: {
+      //     // padding: 2,
+      //     marginTop: ".7em"
+      //   },
+      // }}
     >
-  {/* return <Timeline
-    sx={{
-      [`& .${timelineItemClasses.root}:before`]: {
-        flex: 0,
-        padding: 0,
-      },
-    }}
-  > */}
     {itemList.map((entry, idx) => <TimelineItem>
-      <TimelineOppositeContent>
-        {entry.dates}
-      </TimelineOppositeContent>
+      {/* <TimelineOppositeContent>
+
+      </TimelineOppositeContent> */}
       <TimelineSeparator>
-        <TimelineDot sx={{ bgcolor: 'var(--ifm-link-color)' }} />
+        <TimelineDot sx={{ bgcolor: 'var(--ifm-link-color)' }}>
+          {/* <FontAwesomeIcon icon="fa-solid fa-graduation-cap" size="lg" /> */}
+          {/* <FontAwesomeIcon icon="fa-solid fa-laptop-code" size="lg" /> */}
+          {entry.symbol}
+        </TimelineDot>
         {
           idx <= itemList.length - 1 &&
           <TimelineConnector sx={{ bgcolor: 'var(--ifm-link-color)' }} />
@@ -75,7 +87,7 @@ export function ATimeline({itemList}) {
       </TimelineSeparator>
       <TimelineContent >
         <p style={{color: "var(--ifm-color-primary)"}}>
-          {entry.degree} at {entry.institution}
+          {entry.dates}: {entry.degree} at {entry.institution}
         </p>
         <p>
           {entry.description}

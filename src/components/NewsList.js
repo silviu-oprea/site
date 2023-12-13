@@ -10,16 +10,16 @@ export const newsList = [
     //         ro: ""
     //     }
     // }
-    {
-        date: "30 Oct 2023",
-        onMainPage: true,
-        languageToText: {
-            en: <React.Fragment>
-I am serving as a reviewer for <Link href="https://aclrollingreview.org/">ACL Rolling Review</Link> 🧐
-            </React.Fragment>,
-            ro: ""
-        }
-    },
+//     {
+//         date: "30 Oct 2023",
+//         onMainPage: true,
+//         languageToText: {
+//             en: <React.Fragment>
+// I am serving as a reviewer for <Link href="https://aclrollingreview.org/">ACL Rolling Review</Link> 🧐
+//             </React.Fragment>,
+//             ro: ""
+//         }
+//     },
     {
         date: "3 March 2023",
         onMainPage: true,
