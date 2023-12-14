@@ -7,19 +7,21 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Silviu Vlad Oprea',
-  tagline: 'Hi, I\'m Silviu. This is my academic profile and blog. I post about Artificial Intelligence, Machine Learning, and Natural Language Processing, Theology, Philosophy.',
+  tagline: 'I am interested in building computational agents that process natural language and react in a manner that brings value to our lives.',
   favicon: 'img/svo.svg',
 
   // Set the production url of your site here
-  url: 'https://silviuvo.com',
+  url: 'https://silviu-oprea.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'silviu-oprea', // Usually your GitHub org/user name.
+  projectName: 'silviu-oprea.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -27,10 +29,10 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'ro'],
-  },
+  // i18n: {
+  //   defaultLocale: 'en',
+  //   locales: ['en', 'ro'],
+  // },
 
   presets: [
     [
@@ -65,10 +67,10 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Silviu Vlad Oprea',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-      },
+      //   logo: {
+      //     alt: 'SVO',
+      //     src: 'img/LOM.png',
+      // },
         items: [
           // {
           //   type: 'docSidebar',
@@ -76,9 +78,9 @@ const config = {
           //   position: 'left',
           //   label: 'Home',
           // },
-          {
-            to: '/#publications', label: 'Publications', position: 'left'
-          },
+          // {
+          //   to: '/#publications', label: 'Publications', position: 'left'
+          // },
           // {
           //   to: '/blog', label: 'Blog', position: 'left'
           // },
@@ -99,6 +101,11 @@ const config = {
           {
             href: 'https://orcid.org/0009-0006-7038-5489',
             className: 'navbar__icon navbar__orcid',
+            position: 'right',
+          },
+          {
+            href: 'https://www.webofscience.com/wos/author/record/JJE-8903-2023',
+            className: 'navbar__icon navbar__clarivate',
             position: 'right',
           },
         ],

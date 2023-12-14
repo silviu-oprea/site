@@ -36,8 +36,10 @@ At Huawei, I worked with <Link href="https://scholar.google.co.uk/citations?user
         degree: "Researcher",
         institution: "Frontier Development Lab",
         description: <React.Fragment>
+            <p>
 At <Link href="https://fdleurope.org">Frontier Developemnt Lab</Link>, we built a flood segmentation model. In the process, we collaborated with the European Space Agency and UNICEF. The model has now been deployed by SpaceX on an actual satellite 🛰.
-
+</p>
+<p>
 Our work was covered by <Link href="https://www.ox.ac.uk/news/2021-06-29-artificial-intelligence-pioneered-oxford-detect-floods-launches-space">
     this
 </Link> post from the University of Oxford; and by several media outlets: <Link href="https://watchers.news/2021/07/11/worldfloods-ai-pioneered-at-oxford-for-global-flood-mapping-launches-into-space/">
@@ -57,6 +59,7 @@ Check out our <Link href="/publications/#Mateo-Garcia2021">
 </Link> and the <Link href="https://www.nature.com/articles/s41598-021-86650-z">
     video of the rocket launch
 </Link> 🚀
+</p>
             <p>
 <iframe width="504" height="283" src="https://www.youtube.com/embed/sSiuW1HcGjA?si=1T89v4S5tO-OhIlL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>

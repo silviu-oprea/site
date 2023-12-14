@@ -76,6 +76,11 @@ html[data-theme='dark'] .header-github-link:before {
   mask-size: cover;
 }
 
+.navbar__clarivate:before {
+  mask: url(/img/clarivate.svg) no-repeat 100% 100%;
+  mask-size: cover;
+}
+
 .centered {
   height: 200px;
   position: relative;

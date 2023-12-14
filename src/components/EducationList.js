@@ -23,7 +23,7 @@ I showed that people of similar socio-demographic backgrounds understand each ot
 Finally, I built a sarcastic chatbot (<Link href="https://aclanthology.org/2021.emnlp-demo.38.pdf">EMNLP 2021 demo</Link>), and investigated when it is appropriate for chatbots to be sarcastic, and how they should formulate their utterances (<Link href="https://aclanthology.org/2022.acl-long.530.pdf">ACL 2022 paper</Link>).
             </p>
             <p>
-Along the way, I had fun as an intern at Frontier Development Lab in 2019, at Huawei in 2020, and at Amazon Alexa AI in 2021. See below.
+Along the way, I had fun as an intern at Frontier Development Lab in 2019, at Huawei in 2020, and at Amazon Alexa AI in 2021. See below, in the <i>Work</i> section.
             </p>
             {/* <p>
             At <Link href="https://fdleurope.org">Frontier Developemnt Lab</Link> in 2019, we built a flood segmentation model. In the process, we collaborated with the European Space Agency and UNICEF. The model has now been deployed by SpaceX on an actual satellite 🛰.
