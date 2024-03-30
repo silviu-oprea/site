@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import the 
 
 export const workList = [
     {
-        symbol: <React.Fragment><FontAwesomeIcon icon="fa-solid fa-laptop-code" size="lg" /></React.Fragment>,
+        symbol: <React.Fragment><FontAwesomeIcon icon="fa-solid fa-flask" size="lg" /></React.Fragment>,
         dates: "2022 - present",
         degree: "Applied Scientist",
         institution: "Amazon Alexa AI",
@@ -13,16 +13,16 @@ export const workList = [
         </React.Fragment>
     },
     {
-        symbol: <React.Fragment><FontAwesomeIcon icon="fa-solid fa-laptop-code" size="lg" /></React.Fragment>,
+        symbol: <React.Fragment><FontAwesomeIcon icon="fa-solid fa-flask" size="lg" /></React.Fragment>,
         dates: "2021",
         degree: "Applied Scientist (Intern)",
         institution: "Amazon Alexa AI",
         description: <React.Fragment>
-At Amazon, I worked with Elisabeth Kwan, <Link href="https://www.microsoft.com/en-us/research/people/mollyxia/">Molly Xia</Link>, <Link href="https://scholar.google.com/citations?user=oZORQtwAAAAJ&hl=en">Christos Christodoulopoulos</Link>, <Link href="https://www.amazon.science/author/dave-palfrey">Dave Palfrey</Link>, and Stephen Teskey on language generation using language models. More details coming soon, a paper is in the baking 👨🏻‍🍳
+At Amazon, I worked with Elisabeth Kwan, <Link href="https://www.microsoft.com/en-us/research/people/mollyxia/">Molly Xia</Link>, <Link href="https://scholar.google.com/citations?user=oZORQtwAAAAJ&hl=en">Christos Christodoulopoulos</Link>, <Link href="https://www.amazon.science/author/dave-palfrey">Dave Palfrey</Link>, and Stephen Teskey on language generation using language models.
         </React.Fragment>
     },
     {
-        symbol: <React.Fragment><FontAwesomeIcon icon="fa-solid fa-laptop-code" size="lg" /></React.Fragment>,
+        symbol: <React.Fragment><FontAwesomeIcon icon="fa-solid fa-flask" size="lg" /></React.Fragment>,
         dates: "2020",
         degree: "Research Scientist (Intern)",
         institution: "Huawei",
@@ -31,7 +31,7 @@ At Huawei, I worked with <Link href="https://scholar.google.co.uk/citations?user
         </React.Fragment>
     },
     {
-        symbol: <React.Fragment><FontAwesomeIcon icon="fa-solid fa-laptop-code" size="lg" /></React.Fragment>,
+        symbol: <React.Fragment><FontAwesomeIcon icon="fa-solid fa-flask" size="lg" /></React.Fragment>,
         dates: "2019",
         degree: "Researcher",
         institution: "Frontier Development Lab",
@@ -82,7 +82,7 @@ Both startups were acquired, see <Link href="https://www.businessinsider.com/ted
         </React.Fragment>
     },
     {
-        symbol: <React.Fragment><FontAwesomeIcon icon="fa-solid fa-laptop-code" size="lg" /></React.Fragment>,
+        symbol: <React.Fragment><FontAwesomeIcon icon="fa-solid fa-flask" size="lg" /></React.Fragment>,
         dates: "2012",
         degree: "Guest Researcher",
         institution: "the National Institute for Standards and Technology",

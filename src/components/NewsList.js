@@ -88,7 +88,7 @@ Our work was covered by <Link href="https://www.ox.ac.uk/news/2021-06-29-artific
     5
 </Link>.
 
-Check out our <Link href="/publications/#Mateo-Garcia2021">
+Check out our <Link href="https://www.nature.com/articles/s41598-021-86650-z">
     Nature (Scientific Reports) paper
 </Link> and the <Link href="https://www.youtube.com/watch?v=sSiuW1HcGjA">
     video of the rocket launch
