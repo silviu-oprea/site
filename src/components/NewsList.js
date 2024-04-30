@@ -2,24 +2,16 @@ import React, { useEffect, useState } from "react";
 import { Link } from '@site/src/components/Utils';
 
 export const newsList = [
-    // {
-    //     date: "4 April 2022",
-    //     onMainPage: true,
-    //     languageToText: {
-    //         en: "",
-    //         ro: ""
-    //     }
-    // }
-//     {
-//         date: "30 Oct 2023",
-//         onMainPage: true,
-//         languageToText: {
-//             en: <React.Fragment>
-// I am serving as a reviewer for <Link href="https://aclrollingreview.org/">ACL Rolling Review</Link> 🧐
-//             </React.Fragment>,
-//             ro: ""
-//         }
-//     },
+    {
+        date: "16 April 2024",
+        onMainPage: true,
+        languageToText: {
+            en: <React.Fragment>
+Excited to announce that I'll be joining Samsung Research UK as a Principal Machine Learning Research Engineer. Research agenda coming soon ⏳🧐🤖🚀🙏🏻! Thanks to everyone at Amazon for the last two years.
+            </React.Fragment>,
+            ro: ""
+        }
+    },
     {
         date: "3 March 2023",
         onMainPage: true,

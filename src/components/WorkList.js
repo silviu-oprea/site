@@ -5,7 +5,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import the 
 export const workList = [
     {
         symbol: <React.Fragment><FontAwesomeIcon icon="fa-solid fa-flask" size="lg" /></React.Fragment>,
-        dates: "2022 - present",
+        dates: "2024 - present",
+        degree: "Principal Machine Learning Research Engineer",
+        institution: "Samsung Research",
+        description: <React.Fragment>
+            Details coming soon, once research agenda is shaped (updated 16 April 2024)
+        </React.Fragment>
+    },
+    {
+        symbol: <React.Fragment><FontAwesomeIcon icon="fa-solid fa-flask" size="lg" /></React.Fragment>,
+        dates: "2022 - 2024",
         degree: "Applied Scientist",
         institution: "Amazon Alexa AI",
         description: <React.Fragment>
